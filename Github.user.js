@@ -22,6 +22,7 @@ $(function(){
     // example: git diff origin/develop...origin/feacherHoge
     var branchTo = $('.current-branch').get(0).innerText;
     var branchFrom = $('.current-branch').get(1).innerText;
+
     var originTo = 'origin/' + branchTo;
     var originFrom = 'origin/' + branchFrom;
 
