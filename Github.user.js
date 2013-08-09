@@ -32,14 +32,13 @@ $(function(){
 
     var gitDiff = diffOrigin + yourFavoritePipe;
     var gitCheckout = "git checkout " + branchFrom;
-    
+
     var $inputDiff = $('<input>')
         .val(gitDiff)
         .css('display', 'block')
         .css('width', '100%')
         .css('padding-left', '3px')
         .on('click', function(){ this.select();});
-
 
     var $inputCheckout = $('<input>')
         .val(gitCheckout)
@@ -51,7 +50,6 @@ $(function(){
     $('#pull-head p').append($inputCheckout);
     $('#pull-head p').append($inputDiff);
     $('.pull-description').css('height','95px');
-    
-  }
+ }
 });
 
