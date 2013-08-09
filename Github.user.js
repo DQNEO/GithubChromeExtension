@@ -2,7 +2,7 @@
 // @name          Github Utils
 // @namespace     http://dqn.sakusakutto.jp/
 // @description   an extension which makes Github better
-// @version       0.0.1
+// @version       0.0.2
 // @include       https://github.com/*
 // ==/UserScript==
 

@@ -1,3 +1,12 @@
+// ==UserScript==
+// @name          Github Utils
+// @namespace     http://dqn.sakusakutto.jp/
+// @description   an extension which makes Github better (without jQuery)
+// @version       0.0.2
+// @include       https://github.com/*
+// ==/UserScript==
+
+
 (function() {
 
   // input追加用の要素作成
