@@ -38,6 +38,7 @@ $(function(){
         .css('display', 'block')
         .css('width', '100%')
         .css('padding-left', '3px')
+        .css('color', 'rgb(51, 100, 121)')
         .on('click', function(){ this.select();});
 
     var $inputCheckout = $('<input>')
@@ -45,6 +46,7 @@ $(function(){
         .css('display', 'block')
         .css('width', '100%')
         .css('padding-left', '3px')
+        .css('color', 'rgb(51, 100, 121)')
         .on('click', function(){ this.select();});
 
     $('#pull-head p').append($inputCheckout);

@@ -8,7 +8,7 @@
     element.style.display = "block";
     element.style.width = "100%";
     element.style.paddingLeft = "3px";
-    element.style.color = "#333";
+    element.style.color = "rgb(51, 100, 121)";
     element.addEventListener("click", function(){
       this.select();
     },false);
