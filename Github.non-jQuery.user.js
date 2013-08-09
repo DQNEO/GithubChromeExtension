@@ -34,6 +34,8 @@
     var yourFavoritePipe  = '';  // like ' | nkf -w | colordiff | less -R ';
 
     var diffOrigin = 'git diff ' + originTo + '...' + originFrom;
+
+    var gitDiff = diffOrigin + yourFavoritePipe;
     var gitCheckout = "git checkout " + branchFrom;
 
     var inputDiff = createInputElementInPRPage(diffOrigin);
