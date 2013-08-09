@@ -16,9 +16,13 @@
     return element;
   }
 
-  var elements = document.getElementsByClassName("page-pullrequest");
+  function isPRPage() {
+    var elements = document.getElementsByClassName("page-pullrequest");
+    return (elements.length === 1);
+  }
+
   // when in PR page
-  if(elements.length === 1){
+  if (isPRPage()) {
     var branches = document.getElementsByClassName("current-branch");
 
     var branchTo = branches[0].innerText;
