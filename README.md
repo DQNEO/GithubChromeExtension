@@ -13,3 +13,8 @@ example: https://github.com/DQNEO/ethnam/pull/2
 
 ![ScreenShot](https://raw.github.com/DQNEO/GithubChromeExtension/master/GithubExtensionCapture.png)
 
+## files
+* Github.user.js : the extension
+* Github.non-jQuery.user.js : non-jQuery version (experimental)
+
+The both files offer the same funtcionality.
