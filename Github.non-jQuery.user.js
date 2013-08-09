@@ -41,10 +41,10 @@
     var inputDiff = createInputElementInPRPage(diffOrigin);
     var inputCheckout = createInputElementInPRPage(gitCheckout);
 
-    var addElement = document.getElementById('pull-head').getElementsByTagName("p");
+    var baseElement = document.getElementById('pull-head').getElementsByTagName("p")[0];
 
-    addElement[0].appendChild(inputCheckout);
-    addElement[0].appendChild(inputDiff);
+    baseElement.appendChild(inputCheckout);
+    baseElement.appendChild(inputDiff);
 
     var pullDescription = document.getElementsByClassName("pull-description");
     pullDescription[0].style.height = "95px";
