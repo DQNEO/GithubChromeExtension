@@ -1,7 +1,7 @@
 (function() {
 
   // input追加用の要素作成
-  function createPullReqInputElement(value) {
+  function createInputElementInPRPage(value) {
     var element = document.createElement('input');
     element.value = value;
     element.readOnly=true;
@@ -29,8 +29,8 @@
     var diffOrigin = 'git diff ' + originTo + '...' + originFrom;
     var gitCheckout = "git checkout " + branchFrom;
 
-    var inputDiff = createPullReqInputElement(diffOrigin);
-    var inputCheckout = createPullReqInputElement(gitCheckout);
+    var inputDiff = createInputElementInPRPage(diffOrigin);
+    var inputCheckout = createInputElementInPRPage(gitCheckout);
 
     var addElement = document.getElementById('pull-head').getElementsByTagName("p");
 
