@@ -27,8 +27,11 @@
 
     var branchTo = branches[0].innerText;
     var branchFrom = branches[1].innerText;
+
     var originTo = 'origin/' + branchTo;
     var originFrom = 'origin/' + branchFrom;
+
+    var yourFavoritePipe  = '';  // like ' | nkf -w | colordiff | less -R ';
 
     var diffOrigin = 'git diff ' + originTo + '...' + originFrom;
     var gitCheckout = "git checkout " + branchFrom;
